@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c9c9f0;
+background: linear-gradient(90deg, rgba(201, 201, 240, 1) 0%, rgba(105, 168, 201, 1) 50%, rgba(83, 159, 176, 1) 100%);
+}
+
+.container{
+    width: 400px;
+    height: min-content;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 28px;
+}
+
+.searchbox{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbox input{
+    width: 84%;
+    font-size: 20px;
+    text-transform: capitalize; /*it make every entered into capital letter */
+    color: #000;
+    background-color: #e6f5fb;
+    padding: 12px 16px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+/* 
+.searchbox input::placeholder{
+    color: #000;
+} */
+
+.searchbox button{
+    width: 46px;
+    height: 46px;
+    background-color: #e6f5fb;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+.searchbox button:hover{
+    color: #fff;
+    background-color: #ababab;
+}
+
+.weather-body{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.weather-body img{
+    width: 60%;
+}
+.weather-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.weather-box .temperature{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+}
+.weather-box .description{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+/* .humidity{
+    height: 40px;
+    width: 40px;
+} */
+
+.weather-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.humidity{
+    display: flex;
+    align-items: center;
+}
+.humidity i{
+    font-size: 36px;
+}
+.wind{
+    display: flex;
+    align-items: center;
+}
+.wind i{
+    font-size: 36px;
+}
+
+.weather-details .text{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.location-not-found{
+    margin-top: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.location-not-found h1{
+    font-size: 20px;
+    color: #6b6b6b;
+    margin-block-end: 15px;
+
+}
+.location-not-found img{
+    width: 80%;
+}
