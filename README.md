@@ -1,1 +1,5 @@
-# Weather-App
+This Weather App is a simple web application developed using HTML, CSS, and JavaScript. The purpose of the app is to provide users with real-time weather updates for any city they search. It fetches data from a public weather API (such as OpenWeatherMap) and displays key weather details including temperature, humidity, wind speed, and overall weather conditions like cloudy, sunny, or rainy.
+
+The project was built to strengthen frontend development skills, with a focus on working with APIs, DOM manipulation, and responsive web design. The interface is clean and responsive, allowing users on both desktop and mobile devices to easily check weather information. When a user enters a city name and submits the form, JavaScript fetches the corresponding weather data and dynamically updates the content on the page. If the user enters an invalid city or the API fails to fetch data, a user-friendly error message is displayed.
+
+This project serves as a great example of integrating frontend technologies with external APIs to create interactive web applications. It can be extended further by adding features such as geolocation support, temperature unit conversion (Celsius to Fahrenheit), or saving search history. The complete source code is available in this repository, and the app can be viewed live using GitHub Pages.
